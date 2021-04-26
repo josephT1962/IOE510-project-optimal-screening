@@ -1,4 +1,4 @@
-# IOE510_project_optimal_screening
+# IOE510-project-optimal-screening
 
 For this project, we created a model to express the epidemic in a social network,
 in which nodes represent people and arcs represent if there exist social interactions among two persons.
