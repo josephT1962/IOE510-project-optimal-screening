@@ -129,9 +129,7 @@ for t in period[:-1]:
         if interact ==0:
           m.addConstr(theta[i,t+1] == 0)
           continue
-        m.addConstr(theta[i,t+1] == infected_interact/interact)
-        #print(interaction)
-        #m.addConstr(theta[i,t+1] == infected_interact/len(people))
+        m.addConstr(theta[i,t+1] == infected_interact/len(people))
 
 #Use alpha to linearized x[i,t]*v[i,t]
 for t in period:
